@@ -72,7 +72,7 @@ fun About() {
                 .fillMaxSize()
         ) {
             BasicText(
-                text = "RiMusic v${getVersionName()} by fast4x",
+                text = "RiMusic v${getVersionName()} by PyAaditya",
                 style = typography().s.secondary,
 
                 )
@@ -86,7 +86,7 @@ fun About() {
             title = stringResource(R.string.social_telegram),
             text = stringResource(R.string.social_telegram_info),
             onClick = {
-                uriHandler.openUri("https://t.me/rimusic_app")
+                uriHandler.openUri("https://t.me/SyncZen")
             }
         )
 
@@ -94,7 +94,7 @@ fun About() {
             title = stringResource(R.string.social_reddit),
             text = stringResource(R.string.social_reddit_info),
             onClick = {
-                uriHandler.openUri("https://www.reddit.com/r/RiMusicApp/")
+                uriHandler.openUri("https://www.instagram.com/Pyaaditya")
             }
         )
 
@@ -102,7 +102,7 @@ fun About() {
             title = stringResource(R.string.social_github),
             text = stringResource(R.string.view_the_source_code),
             onClick = {
-                uriHandler.openUri("https://github.com/fast4x/RiMusic")
+                uriHandler.openUri("https://github.com/AnonymousA1025/RiMusic")
             }
         )
 
@@ -114,7 +114,7 @@ fun About() {
             title = stringResource(R.string.report_an_issue),
             text = stringResource(R.string.you_will_be_redirected_to_github),
             onClick = {
-                uriHandler.openUri("https://github.com/fast4x/RiMusic/issues/new?assignees=&labels=bug&template=bug_report.yaml")
+                uriHandler.openUri("https://github.com/AnonymousA1025/RiMusic/issues/new?assignees=&labels=bug&template=bug_report.yaml")
             }
         )
 
@@ -123,7 +123,7 @@ fun About() {
             title = stringResource(R.string.request_a_feature_or_suggest_an_idea),
             text = stringResource(R.string.you_will_be_redirected_to_github),
             onClick = {
-                uriHandler.openUri("https://github.com/fast4x/RiMusic/issues/new?assignees=&labels=feature_request&template=feature_request.yaml")
+                uriHandler.openUri("https://github.com/AnonymouA1025/RiMusic/issues/new?assignees=&labels=feature_request&template=feature_request.yaml")
             }
         )
 
