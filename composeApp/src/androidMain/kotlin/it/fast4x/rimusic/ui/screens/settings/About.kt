@@ -91,8 +91,8 @@ fun About() {
         )
 
         SettingsEntry(
-            title = stringResource(R.string.social_reddit),
-            text = stringResource(R.string.social_reddit_info),
+            title = "Instagram",
+            text = "Follow Devloper on Instagram",
             onClick = {
                 uriHandler.openUri("https://www.instagram.com/Pyaaditya")
             }
