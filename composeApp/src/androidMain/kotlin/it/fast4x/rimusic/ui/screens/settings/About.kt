@@ -166,7 +166,7 @@ fun About() {
                     "Dženan \n" +
                     "EMC_Translator \n"+
                     "Fabian Urra \n"+
-                    "fast4x \n"+
+                    "PyAaditya \n"+
                     "Fausta Ahmad \n"+
                     "Get100percent \n"+
                     "Glich440 \n"+
